@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Mazerats Generator</title>
+    </head>
+    <body>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+        </script>
+        <script src="js/util.js"></script>
+        <script src="js/dungeon.js"></script>
+        <script src="js/monster.js"></script>
+        <form>
+            <select id="select">
+                <option value="monster">Monsters</option>
+                <option value="dungeon">Dungeon</option>
+            </select>
+            <input type="button" class="button" onclick="generate()" value="Make!">
+        </form>
+        <p id="display"></p>
+    </body>
+</html>

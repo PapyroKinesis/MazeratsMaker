@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+}
+#display {
+    position: absolute;
+    right: 3em;
+    top: 1em;
+    justify-content: right;
+    color: antiquewhite;
+    font-size: 250%;
+}
+#select {
+    position: absolute;
+    left: 1em;
+    top: 1em;
+    background-color: black;
+    color: antiquewhite;
+    font-size: 250%;
+}
+.button {
+    position: absolute;
+    left: 10em;
+    top: 2em;
+    background-color: black;
+    color: antiquewhite;
+    font-size: 150%;
+}
